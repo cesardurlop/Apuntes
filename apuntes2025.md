@@ -36,5 +36,18 @@ persona1= Persona("César",24)
 persona1.saludar()  
 ``` 
 
+```
+git add -u  
+esto es para agregar los cambios a la zona de preparacion  
+
+Una vez que hayas añadido los cambios, puedes hacer un commit para registrar esos cambios:
+
+git commit -m "Eliminados archivos innecesarios"      
+  
+
+Finalmente, si todo está listo y quieres reflejar las eliminaciones en tu repositorio remoto, puedes hacer un git push:
+
+git push origin main
+
 
    
