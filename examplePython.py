@@ -1,13 +1,9 @@
-class Persona: 
-      
-     def __init__(self,nombre, edad):
-            self.nombre =nombre
-            self.edad = edad
-     def saludar(self):
-        print(f"Hola, mi nombre es {self.nombre} y tengo {self.edad} años.")
 
-persona1= Persona("César",24)
 
-persona1.saludar()
-ddw    
-ds
+def invertir(cadena):
+    if len(cadena) <= 1:  # Condición base: si la cadena tiene 0 o 1 caracteres, se regresa igual
+        return cadena
+    else:
+        return invertir(cadena[1:]) + cadena[0]  # Llamada recursiva con el resto de la cadena
+    
+    print(invertir("python"))
