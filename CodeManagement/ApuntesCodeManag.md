@@ -1,1 +1,0 @@
-ApuntesCodeManag.md
